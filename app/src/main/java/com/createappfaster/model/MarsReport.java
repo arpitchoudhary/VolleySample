@@ -4,13 +4,13 @@ package com.createappfaster.model;
  * Created by arpit on 09/07/15.
  */
 public class MarsReport {
-    String terrestrialDate;
-    String marsDate;
-    String minTemp;
-    String maxTemp;
-    String windSpeed;
-    String pressure;
-    String weatherStatus;
+    private String terrestrialDate;
+    private String marsDate;
+    private String minTemp;
+    private String maxTemp;
+    private String windSpeed;
+    private String pressure;
+    private String weatherStatus;
 
     public String getTerrestrialDate() {
         return terrestrialDate;
